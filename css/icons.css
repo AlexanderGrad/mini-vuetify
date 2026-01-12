@@ -2,9 +2,6 @@
   font-family: 'MaterialDesignIcons';
   src: url('/mini-vuetify/fonts/mdi-fonts/materialdesignicons-webfont.woff2') format('woff2'),
        url('/mini-vuetify/fonts/mdi-fonts/materialdesignicons-webfont.woff') format('woff');
-}
-
-.mdi {
-  font-family: 'MaterialDesignIcons';
+  font-weight: normal;
   font-style: normal;
 }

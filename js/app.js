@@ -1,10 +1,17 @@
-const app = new VueMini({
-  data: {
-    message: 'Hello World'
+const app = Vue.createApp({
+  data() {
+    return {
+      message: 'Привет, мир!'
+    }
+  },
+  methods: {
+    updateMessage() {
+      this.message = 'Кнопка нажата!';
+    },
+    resetMessage() {
+      this.message = 'Привет, мир!';
+    }
   }
 });
 
-function updateMessage() {
-  const input = document.getElementById('userInput');
-  app.data.message = input.value;
-}
+app.mount('#app');

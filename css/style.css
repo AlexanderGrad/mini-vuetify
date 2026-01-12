@@ -1,31 +1,25 @@
 body {
-  margin: 20px;
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .card {
-  background: #fff;
-  padding: 20px;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,.2);
-  margin-bottom: 16px;
+  display: inline-block;
 }
 
-.button {
-  background: #1976d2;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 16px;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
+.mdi {
+  font-family: 'MaterialDesignIcons';
+  font-size: 24px;
+  vertical-align: middle;
+  margin-left: 5px;
 }

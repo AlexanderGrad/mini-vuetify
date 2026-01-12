@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mini Vuetify</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="/mini-vuetify/css/style.css">
-  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="/mini-vuetify/css/icons.css">
+
+  <!-- Vue -->
+  <script src="https://unpkg.com/vue@3"></script>
 </head>
 <body>
+  <div id="app">
+    <h1>{{ message }}</h1>
 
-  <div class="card">
-    <p data-bind="message"></p>
+    <!-- Кнопки -->
+    <button @click="updateMessage">Нажми меня</button>
+    <button @click="resetMessage">Сбросить</button>
 
-    <button class="button" onclick="app.data.message='Привет из Mini Vuetify!'">
-      <i class="mdi mdi-thumb-up"></i>
-      Нажми меня
-    </button>
+    <!-- Пример карточки -->
+    <div class="card">
+      <p>Это мини-карточка Vuetify</p>
+      <span class="mdi mdi-star"></span>
+    </div>
   </div>
 
-  <div class="card">
-    <input class="input" id="userInput" placeholder="Введи текст">
-    <button class="button" onclick="updateMessage()">Отправить</button>
-  </div>
-
-  <script src="mini-vuetify/js/vue-mini.js"></script>
-  <script src="mini-vuetify/js/app.js"></script>
+  <!-- JS -->
+  <script src="/mini-vuetify/js/vue-mini.js"></script>
+  <script src="/mini-vuetify/js/app.js"></script>
 </body>
 </html>
