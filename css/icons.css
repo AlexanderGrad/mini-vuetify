@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'MaterialDesignIcons';
-  src: url('../fonts/mdi-fonts/materialdesignicons-webfont.woff2') format('woff2'),
-       url('../fonts/mdi-fonts/materialdesignicons-webfont.woff') format('woff');
+  src: url('/mini-vuetify/fonts/mdi-fonts/materialdesignicons-webfont.woff2') format('woff2'),
+       url('/mini-vuetify/fonts/mdi-fonts/materialdesignicons-webfont.woff') format('woff');
 }
 
 .mdi {
