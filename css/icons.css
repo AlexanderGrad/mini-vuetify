@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'MaterialDesignIcons';
+  src: url('../fonts/mdi-fonts/materialdesignicons-webfont.woff2') format('woff2'),
+       url('../fonts/mdi-fonts/materialdesignicons-webfont.woff') format('woff');
+}
+
+.mdi {
+  font-family: 'MaterialDesignIcons';
+  font-style: normal;
+}
